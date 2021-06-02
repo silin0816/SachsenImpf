@@ -1,6 +1,6 @@
 # SachsenImpf(just for fun)
 
-这是一个利用Selenium创建的类似于按键精灵的Covid/19的也**页面刷新器**。
+这是一个利用Selenium创建的类似于按键精灵的Covid/19的用于sachesen预约系统的**页面刷新器**。
 
 
 # 准备
