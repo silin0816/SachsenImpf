@@ -9,12 +9,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 import winsound
-
+import smtplib
 
 # def send_email():
-#     msg_from = '914373315@qq.com'  # from
-#     passwd = 'vahcqdhmcogfbfjc'
-#     to = ['914373315@qq.com']  # to
+#     msg_from = '发送人'  # from
+#     passwd = '邮箱SMTP密码'
+#     to = ['接受人']  # to
 #     msg = MIMEMultipart()
 #     content = "！！！！有termin啦！！！！"  # content
 #     msg.attach(MIMEText(content, 'plain', 'utf-8'))
@@ -85,8 +85,8 @@ class GetTermin():
 
 if __name__ == '__main__':
 
-    ACCOUNT = "A204-36513"
-    PWD = "yin940319"
+    ACCOUNT = "*******"
+    PWD = "****"
     PATH = "C:\Program Files (x86)\chromedriver.exe"
 
     GetTermin(PATH).login(ACCOUNT, PWD)
