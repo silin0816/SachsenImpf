@@ -41,7 +41,7 @@ class GetTermin():
     def waiting_login(self):
         # wait until the entrance appears
         try:
-            wait = WebDriverWait(self.driver, 300).until(EC.presence_of_element_located((By.ID, "gwt-uid-3")))
+            wait = WebDriverWait(self.driver, 1800).until(EC.presence_of_element_located((By.ID, "gwt-uid-3")))
         finally:
             print('open pages')
         return self
