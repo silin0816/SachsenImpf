@@ -6,8 +6,7 @@
 # 准备
 * 1 python 3.x
 * 2 安装Selenium, 可利用pip或者conda (输入命令conda install -c conda-forge selenium)
-* 3 根据chrome的版本选择安装相应的浏览器驱动，例如chromedriver, foxfiredriver 例如chrome:<https://chromedriver.chromium.org/downloads
-* 建议安装在C:\Program Files (x86)
+* 3 根据chrome的版本选择安装相应的浏览器驱动，例如chromedriver, foxfiredriver 例如chrome:<https://chromedriver.chromium.org/downloads 建议安装在C:\Program Files (x86)
 
 # 变量
 * 1 ACCOUNT: 注册获取的账户号
