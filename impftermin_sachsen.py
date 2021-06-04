@@ -57,6 +57,7 @@ class GetTermin():
             except:
                 winsound.Beep(600, 8000)
                 # send_email()
+                time.sleep(6000)
                 break
 
 
